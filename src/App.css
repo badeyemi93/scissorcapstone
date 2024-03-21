@@ -1,0 +1,47 @@
+/* Style for elements with class 'stroke-style' */
+.stroke-style {
+  position: relative;
+  height: 100%;
+}
+
+/* After pseudo-element style for 'stroke-style' */
+.stroke-style::after {
+  position: absolute;
+  left: 56px;
+  top: 16px;
+  display: inline-block;
+  content: url(/assets/icons/Vector\ 3.png);
+  width: 10px;
+}
+
+/* Style for elements with class 'sidebar-present' */
+.sidebar-present {
+  position: relative;
+  height: 100%;
+}
+
+/* After pseudo-element style for 'sidebar-present' */
+.sidebar-present::after {
+  position: absolute;
+  content: '';
+  left: -15px;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: linear-gradient(180deg, #112232 0%, rgba(77, 107, 136, 0) 100%);
+}
+
+/* Style for h2 elements */
+h2 {
+  font-size: 30px; /* Set font size to 30px */
+}
+
+/* Style for h3 elements */
+h3 {
+  font-size: 25px; /* Set font size to 25px */
+}
+
+/* Style for body element */
+body {
+  font-size: 16px; /* Set font size to 16px */
+}

@@ -1,0 +1,47 @@
+/* Define custom CSS variables for colors and background */
+:root {
+  --color-primary: #005AE2;
+  --color-primary-2: #0065FE;
+  --color-white: #FFFFFF;
+  --gradient-background: #1E3448;
+  scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+
+/* Reset margin, padding and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for body element */
+body {
+  /* background: url(/assets/images/aurora.jpg) top center no-repeat; */
+  background-color: rgb(245, 244, 243); /* Set background color */
+  line-height: 1.5; /* Set line height */
+  font-size: 16px; /* Set font size */
+  font-family: 'Gilroy-Medium', sans-serif; /* Set font family */
+}
+
+/* Remove text decoration for all states of anchor tags */
+a,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+/* Set color for anchor tags inside list items */
+ul li a {
+  color: black;
+}
+
+/* Class to set text color to primary color */
+.text-primary {
+  color: var(--color-primary-2);
+}
+
+/* Class to align text to the right */
+.text-right {
+  text-align: right;
+}
